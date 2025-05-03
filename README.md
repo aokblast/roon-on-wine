@@ -2,7 +2,7 @@
 
 This script makes it possible to run Roon on Wine. It creates a separate Wine instance in a folder; this is required for Roon.
 
-Right now the script is very rudimentary: more stuff is coming soon. Keep in mind that you need the following programs to be installed on your Linux system:
+Right now the script is very rudimentary: more stuff is coming soon. Keep in mind that you need the following programs to be installed on your Linux/FreeBSD system:
 
 * wine
 * winetricks
@@ -37,6 +37,10 @@ This scripts has been reported to work on:
   * Don't use the WineHQ repo, but just the Fedora-native Wine (<code>sudo dnf install wine</code>)
 * Ubuntu
 * Linux Mint
+
+Other OS:
+
+* FreeBSD
 
 <b> Ubuntu 20.04 (Focal Fossa) / Linux Mint 20x requires at least 'winehq-stable' (wine version 7.0+) or 'winehq-staging' (wine version 7.22+) </b>
 
