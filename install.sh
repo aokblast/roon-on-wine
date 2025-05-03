@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #set -x
 WIN_ROON_DIR=my_roon_instance
@@ -140,7 +140,7 @@ ROONEXE="/Roon/Application/Roon.exe"
 # Preconditions for start script met.
 # create start script
 cat << _EOF_ > ./start_my_roon_instance.sh
-#!/bin/bash
+#!/usr/bin/env bash
 
 # This parameter influences the scale at which
 # the Roon UI is rendered.
